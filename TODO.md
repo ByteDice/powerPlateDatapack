@@ -1,7 +1,11 @@
 # TODO
 
-## CMD Blocks
+## CODE
 - Balance plate abilities
+- Add crafting system to be able to change chestplate (drop items on ground -> boom)
+- Fix giving chestplate on join
+- Remove "dropped chestplates dissapear" and replace with "has other chestplate in inventory"
+  - https://www.reddit.com/r/MinecraftCommands/comments/ercmqc/how_to_tell_if_a_player_has_a_certain_item/
 
 ## CUSTOM COMMANDS (hopefully no plugins)
 - /rtp
