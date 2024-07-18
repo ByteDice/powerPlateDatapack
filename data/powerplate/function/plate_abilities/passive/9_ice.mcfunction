@@ -1,0 +1,2 @@
+execute as @a[scores = {wearingIce = 1, inSpawn = 0}] at @s run fill ~3 ~-1 ~3 ~-3 ~-1 ~-3 minecraft:frosted_ice replace water[level = 0]
+execute as @a[scores = {wearingIce = 1}] at @s if block ~ ~ ~ lava run damage @s 7 minecraft:lava

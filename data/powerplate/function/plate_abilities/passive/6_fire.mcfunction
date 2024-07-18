@@ -1,0 +1,2 @@
+execute as @a[scores = {wearingFire = 1}] run effect give @s minecraft:fire_resistance 1 0 true
+execute as @a[scores = {wearingFire = 1}] at @s if block ~ ~ ~ minecraft:water run damage @s 3 minecraft:drown

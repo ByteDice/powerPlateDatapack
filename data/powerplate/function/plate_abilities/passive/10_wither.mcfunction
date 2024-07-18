@@ -1,0 +1,1 @@
+execute as @a[scores = {wearingWither = 1}] run effect give @s strength 1 1 true

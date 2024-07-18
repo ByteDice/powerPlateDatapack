@@ -1,0 +1,1 @@
+execute as @a[scores = {wearingPower = 1}] run effect give @s minecraft:strength 1 2 true

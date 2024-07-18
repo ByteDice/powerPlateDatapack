@@ -1,0 +1,13 @@
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [1.0, 0.0, 0.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [1.0, 0.0, 1.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [0.0, 0.0, 1.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [-1.0, 0.0, 1.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [-1.0, 0.0, 0.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [1.0, 0.0, -1.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [0.0, 0.0, -1.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run summon minecraft:potion ~ ~3 ~ {Motion: [-1.0, 0.0, -1.0], Item:{id: "splash_potion", components:{potion_contents:{custom_color: 11101546, custom_effects:[{id: instant_damage, duration: 1, amplifier: 1}]}}}}
+
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run particle minecraft:flame ~ ~3 ~ 0.125 0.125 0.125 0.2 100
+
+execute at @a[scores = {usedAbility = 1, wearingPower = 1}] run playsound minecraft:entity.dragon_fireball.explode player @a[distance = ..30] ~ ~ ~
+scoreboard players set @a[scores = {usedAbility = 1, wearingPower = 1}] powerPlateCooldown 250

@@ -1,0 +1,1 @@
+execute as @a[scores = {wearingHealth = 1}] run effect give @s minecraft:weakness 1 0 true

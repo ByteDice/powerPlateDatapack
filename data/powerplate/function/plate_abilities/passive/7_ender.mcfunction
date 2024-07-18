@@ -1,0 +1,2 @@
+execute as @a[scores = {wearingEnder = 1}] at @s if entity @s[y = -100, dy = -100] run effect give @s minecraft:levitation 1 100 false
+execute as @a[scores = {wearingEnder = 1}] at @s if block ~ ~ ~ minecraft:water run damage @s 3 minecraft:drown
