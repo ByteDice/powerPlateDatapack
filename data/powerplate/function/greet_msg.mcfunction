@@ -1,1 +1,0 @@
-tellraw @s "§2Welcome to PowerPlates! We hope you have a fun time here.\n------------------------------\nYou can read the rules by executing \"/trigger rules\" in the chat.\n\nIf you have any questions, please look for answers in the FAQ at \"/trigger faq\" before asking the moderators."

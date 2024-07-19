@@ -16,23 +16,32 @@ scoreboard objectives remove usedAbility
 scoreboard objectives remove uraniumTemp
 scoreboard objectives remove tempTitleCooldown
 scoreboard objectives remove byteTPRand
-scoreboard objectives remove timesLeft
-scoreboard objectives remove powerPlateType
+#scoreboard objectives remove powerPlateType # commented to prevent switching plate types on reset
 scoreboard objectives remove hasDied
 scoreboard objectives remove fireDuration
 scoreboard objectives remove sneakTime
-scoreboard objectives remove hasJoinedBefore
-scoreboard objectives remove keepInventoryEnabled
+#scoreboard objectives remove hasJoinedBefore # commented to prevent greet msg every server restart
 scoreboard objectives remove successfullyUsedAbility
 scoreboard objectives remove inSpawn
 scoreboard objectives remove hasEnteredSpawnRegion
 scoreboard objectives remove hasExitedSpawnRegion
 scoreboard objectives remove witherPlateSkullsShot
 scoreboard objectives remove witherPlateSkullsCycles
-scoreboard objectives remove isUsingAbility
+scoreboard objectives remove witherPlateIsUsingAbility
 scoreboard objectives remove inPvpSpawn
 scoreboard objectives remove hasEnteredPvpRegion
 scoreboard objectives remove hasExitedPvpRegion
+scoreboard objectives remove firePlateIsUsingAbility
+scoreboard objectives remove firePlateParticleCount
+scoreboard objectives remove isStaff
+scoreboard objectives remove isCrafting
+scoreboard objectives remove craftAnimationTime
+scoreboard objectives remove keepInventoryEnabled
+scoreboard objectives remove mobGriefingEnabled
+scoreboard objectives remove maxEntityCrammingAmount
+scoreboard objectives remove randomTickSpeedAmount
+scoreboard objectives remove fireTickEnabled
+scoreboard objectives remove wardenSpawningEnabled
 
 scoreboard objectives add wearingPowerPlate dummy
 scoreboard objectives add powerPlateCooldown dummy
@@ -52,23 +61,32 @@ scoreboard objectives add usedAbility dummy
 scoreboard objectives add uraniumTemp dummy
 scoreboard objectives add tempTitleCooldown dummy
 scoreboard objectives add byteTPRand dummy
-scoreboard objectives add timesLeft minecraft.custom:minecraft.leave_game
 scoreboard objectives add powerPlateType dummy
 scoreboard objectives add hasDied deathCount
 scoreboard objectives add fireDuration dummy
 scoreboard objectives add sneakTime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add hasJoinedBefore dummy
-scoreboard objectives add keepInventoryEnabled dummy
 scoreboard objectives add successfullyUsedAbility dummy
 scoreboard objectives add inSpawn dummy
 scoreboard objectives add hasEnteredSpawnRegion dummy
 scoreboard objectives add hasExitedSpawnRegion dummy
 scoreboard objectives add witherPlateSkullsShot dummy
 scoreboard objectives add witherPlateSkullsCycles dummy
-scoreboard objectives add isUsingAbility dummy
+scoreboard objectives add witherPlateIsUsingAbility dummy
 scoreboard objectives add inPvpSpawn dummy
 scoreboard objectives add hasEnteredPvpRegion dummy
 scoreboard objectives add hasExitedPvpRegion dummy
+scoreboard objectives add firePlateIsUsingAbility dummy
+scoreboard objectives add firePlateParticleCount dummy
+scoreboard objectives add isStaff dummy
+scoreboard objectives add isCrafting dummy
+scoreboard objectives add craftAnimationTime dummy
+scoreboard objectives add keepInventoryEnabled dummy
+scoreboard objectives add mobGriefingEnabled dummy
+scoreboard objectives add maxEntityCrammingAmount dummy
+scoreboard objectives add randomTickSpeedAmount dummy
+scoreboard objectives add fireTickEnabled dummy
+scoreboard objectives add wardenSpawningEnabled dummy
 
 team remove silentPlate
 team remove silentPlateFounder
@@ -110,12 +128,14 @@ scoreboard objectives remove faq
 scoreboard objectives remove banned-mods
 scoreboard objectives remove spawn
 scoreboard objectives remove pvp
+scoreboard objectives remove gamerules
 
 scoreboard objectives add rules trigger
 scoreboard objectives add faq trigger
 scoreboard objectives add banned-mods trigger
 scoreboard objectives add spawn trigger
 scoreboard objectives add pvp trigger
+scoreboard objectives add gamerules trigger
 
 title @a times 10t 10t 10t
 

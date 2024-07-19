@@ -2,10 +2,6 @@
 
 ## CODE
 - Balance plate abilities
-- Add crafting system to be able to change chestplate (drop items on ground -> boom)
-- Fix giving chestplate on join
-- Remove "dropped chestplates dissapear" and replace with "has other chestplate in inventory"
-  - https://www.reddit.com/r/MinecraftCommands/comments/ercmqc/how_to_tell_if_a_player_has_a_certain_item/
 
 ## CUSTOM COMMANDS (hopefully no plugins)
 - /rtp
@@ -14,34 +10,26 @@
 - TAB (plugin)
 
 ## OTHER
+- fix pvp arena bottom decoration
 
 ## FUTURE ADDITIONS
 - Add minigame maps
-- Add pvp arena
-  - fix pvp arena bottom
 
 
 
 
 
 ## NOTES
- - strenght 3 too much dmg
- - power potions no dmg
+- strenght 3 possibly too much dmg
+- powerPlate potions no dmg
 
- - speed ability no levitation
+- oceanic ability only useful for escaping
+- oceanic boring
 
- - oceanic ability only useful for escaping
- - oceanic boring
+- wither no dmg (at least on easy mode)
 
- - wither has no cooldown
- - wither no dmg
+- ice is impossible to use in pvp area (rework pls)
 
- - ice is impossible to use in pvp area
+- health could use group healing instead (maybe?)
 
- - fire lacks particles
-
- - health may be buggy
-
- - byte too boring (change plan: instantly kill 1 random person near)
-
- - too little water in pvp arena (for uranium)
+- too little water in pvp arena (for uranium)

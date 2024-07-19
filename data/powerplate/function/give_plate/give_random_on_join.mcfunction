@@ -1,5 +1,6 @@
-execute as @a[scores ={timesLeft = 0}] unless entity @s[scores = {powerPlateType = 0..}] run execute store result score @s powerPlateType run random value 1..11
-execute as @a[scores ={timesLeft = 0}] unless entity @s[scores = {hasJoinedBefore = 1}] run scoreboard players set @s hasJoinedBefore 0
+execute as @a unless entity @s[scores = {hasJoinedBefore = 0..}] run scoreboard players set @s hasJoinedBefore 0
+
+execute as @a[scores = {hasJoinedBefore = 0}] unless entity @s[scores = {powerPlateType = 0..}] run execute store result score @s powerPlateType run random value 1..11
 
 execute as @a[scores = {hasJoinedBefore = 0}] run title @s times 10t 10t 10t
 
@@ -17,6 +18,6 @@ execute as @a[scores = {hasJoinedBefore = 0, powerPlateType = 11}] run function 
 
 execute as @a[scores = {hasJoinedBefore = 0}] run function powerplate:give_plate/ability_activator
 
-execute as @a[scores = {hasJoinedBefore = 0}] run function powerplate:greet_msg
+execute as @a[scores = {hasJoinedBefore = 0}] run tellraw @s "§2\n\nWelcome to PowerPlates! We hope you have a fun time here.\n------------------------------\nYou can read the rules by executing \"/trigger rules\" in the chat.\n\nIf you have any questions, please look for answers in the FAQ at \"/trigger faq\" before asking the moderators.\n\n"
 
-execute as @a[scores ={hasJoinedBefore = 0, powerPlateType = 0..}] run scoreboard players set @s hasJoinedBefore 1
+execute as @a[scores = {hasJoinedBefore = 0}] run scoreboard players set @s hasJoinedBefore 1

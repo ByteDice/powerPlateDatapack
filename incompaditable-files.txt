@@ -1,0 +1,10 @@
+# Everything here may not function as expected worlds beside the PowerPlates server!
+# There will be a file path relative to data\powerplate\function to find the files easier.
+# The file extention will ALWAYS be .mcfunction
+# I will provide which other files uses the incompaditable ones. And most files will be included in either tick.mcfunction or reset.mcfunction
+
+enter_region_title      used in: [tick, reset]
+pvp_spawn_protection    used in: [tick, reset]
+spawn_elevators         used in: [tick, reset]
+spawn_protection        used in: [tick, reset]
+trigger_cmds            used in: [tick, reset]
