@@ -28,8 +28,6 @@
 
 - wither no dmg (at least on easy mode)
 
-- ice is impossible to use in pvp area (rework pls)
-
 - health could use group healing instead (maybe?)
 
 - too little water in pvp arena (for uranium)
