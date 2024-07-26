@@ -8,3 +8,5 @@ execute as @a[gamemode = adventure, team =! founder, team =! mod, team =! silent
 
 execute as @a[scores = {inPvpSpawn = 1}, team =! founder, team =! mod, team =! silentPlateFounder, team =! silentPlateMod, team =! silentPlateInPvpSpawn] run team join inPvpSpawn @s
 execute as @a[scores = {inPvpSpawn = 0}, team = inPvpSpawn] run team leave @s
+
+execute as @a[scores = {inPvpSpawn = 1}] at @s run particle minecraft:falling_water ~ ~30 ~ 30 2 30 0 300 normal @s

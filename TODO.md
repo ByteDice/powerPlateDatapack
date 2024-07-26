@@ -10,7 +10,6 @@
 - TAB (plugin)
 
 ## OTHER
-- fix pvp arena bottom decoration
 
 ## FUTURE ADDITIONS
 - Add minigame maps
@@ -29,5 +28,3 @@
 - wither no dmg (at least on easy mode)
 
 - health could use group healing instead (maybe?)
-
-- too little water in pvp arena (for uranium)
