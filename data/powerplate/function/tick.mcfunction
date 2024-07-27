@@ -34,13 +34,12 @@ function powerplate:spawn_elevators
 
 function powerplate:trigger_cmds
 
+function powerplate:staff_team_score
+
 function powerplate:spawn_protection
 function powerplate:pvp_spawn_protection
 function powerplate:enter_region_title
 
-function powerplate:staff_team_score
-
 function powerplate:rand_plate_crafting
 
-# DISABLE DURING TESTING
 function powerplate:remove_chestplates_from_inventory

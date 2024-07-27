@@ -90,40 +90,34 @@ scoreboard objectives add fireTickEnabled dummy
 scoreboard objectives add wardenSpawningEnabled dummy
 scoreboard objectives add icePlateAnchorDuration dummy
 
-team remove silentPlate
-team remove silentPlateFounder
-team remove silentPlateMod
-team remove founder
-team remove mod
-team remove inSpawn
-team remove silentPlateInSpawn
-team remove silentPlateInPvpSpawn
-team remove inPvpSpawn
-
-team add silentPlate
-team add silentPlateFounder
-team add silentPlateMod
-team add founder
-team add mod
-team add inSpawn
-team add silentPlateInSpawn
-team add silentPlateInPvpSpawn
-team add inPvpSpawn
 
 scoreboard players set Byte_Dice powerPlateType 11
 
-team modify founder color blue
-team modify founder prefix {"text": "[Founder] ", "color": "aqua", "bold": true}
-team modify mod color dark_red
-team modify mod prefix {"text": "[Moderator] ", "color": "red", "bold": true}
 
-team modify silentPlateFounder color blue
-team modify silentPlateFounder prefix {"text": "[Founder] ", "color": "aqua", "bold": true}
-team modify silentPlateMod color dark_red
-team modify silentPlateMod prefix {"text": "[Moderator] ", "color": "red", "bold": true}
+team remove founder
+team remove mod
+team remove inSpawn
+team remove inPvpSpawn
+team remove playTester
+
+team add founder
+team add mod
+team add inSpawn
+team add inPvpSpawn
+team add playTester
+
+
+team modify founder color blue
+team modify founder prefix [{"text": "[", "color": "blue", "bold": true}, {"text": "Founder", "color": "aqua", "bold": true}, {"text": "] ", "color": "blue", "bold": true}]
+team modify mod color dark_red
+team modify mod prefix [{"text": "[", "color": "dark_red", "bold": true}, {"text": "Moderator", "color": "red", "bold": true}, {"text": "] ", "color": "dark_red", "bold": true}]
+
+team modify playTester color dark_green
+team modify playTester prefix [{"text": "[", "color": "dark_green", "bold": true}, {"text": "Tester", "color": "green", "bold": true}, {"text": "] ", "color": "dark_green", "bold": true}]
+
 
 team modify inSpawn friendlyFire false
-team modify silentPlateInSpawn friendlyFire false
+
 
 scoreboard objectives remove rules
 scoreboard objectives remove faq

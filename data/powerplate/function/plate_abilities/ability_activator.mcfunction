@@ -1,6 +1,6 @@
 execute as @a unless entity @s[scores = {powerPlateCooldown = 0..}] run scoreboard players set @s powerPlateCooldown 0
 
-execute as @a[nbt = {SelectedItem: {id: "minecraft:carrot_on_a_stick", components: {"minecraft:custom_data":{activator: 1b}}}}, scores = {usedCOAS = 1.., powerPlateCooldown = 0}] unless entity @s[scores = {inSpawn = 1}, team =! founder, team =! mod, team =! silentPlateFounder, team =! silentPlateMod] run scoreboard players set @s usedAbility 1
+execute as @a[nbt = {SelectedItem: {id: "minecraft:carrot_on_a_stick", components: {"minecraft:custom_data":{activator: 1b}}}}, scores = {usedCOAS = 1.., powerPlateCooldown = 0}] unless entity @s[scores = {inSpawn = 1}] unless entity @s[scores = {isStaff = 1}] run scoreboard players set @s usedAbility 1
 
 execute as @a[scores = {usedCOAS = 1..}] run scoreboard players set @s usedCOAS 0 
 
