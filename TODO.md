@@ -10,6 +10,7 @@
 - TAB (plugin)
 
 ## OTHER
+- add bigger water puddles to pvp arena
 
 ## FUTURE ADDITIONS
 - Add minigame maps
