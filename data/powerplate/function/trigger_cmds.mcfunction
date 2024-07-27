@@ -40,8 +40,7 @@ execute as @a[scores = {gamerules = 1..}] store result score @s mobGriefingEnabl
 execute as @a[scores = {gamerules = 1..}] store result score @s maxEntityCrammingAmount run gamerule maxEntityCramming
 execute as @a[scores = {gamerules = 1..}] store result score @s randomTickSpeedAmount run gamerule randomTickSpeed
 execute as @a[scores = {gamerules = 1..}] store result score @s fireTickEnabled run gamerule doFireTick
-execute as @a[scores = {gamerules = 1..}] store result score @s wardenSpawningEnabled run gamerule doWardenSpawning
 
-execute as @a[scores = {gamerules = 1..}] run tellraw @s [{"text": "§6\n\nGAMERULES (for boolean values, 1 = true, 0 = false)\n------------------------------\nkeepInventory: "}, {"score": {"name": "@s", "objective": "keepInventoryEnabled"}}, {"text": "§6\nmobGriefing: "}, {"score": {"name": "@s", "objective": "mobGriefingEnabled"}}, {"text": "§6\nmaxEntityCramming: "}, {"score": {"name": "@s", "objective": "maxEntityCrammingAmount"}}, {"text": "§6\nrandomTickSpeed: "}, {"score": {"name": "@s", "objective": "randomTickSpeedAmount"}}, {"text": "§6\ndoFireTick: "}, {"score": {"name": "@s", "objective": "fireTickEnabled"}}, {"text": "§6\ndoWardenSpawning: "}, {"score": {"name": "@s", "objective": "wardenSpawningEnabled"}}, {"text": "\n\n"}]
+execute as @a[scores = {gamerules = 1..}] run tellraw @s [{"text": "§6\n\nGAMERULES (for boolean values, 1 = true, 0 = false)\n------------------------------\nkeepInventory: "}, {"score": {"name": "@s", "objective": "keepInventoryEnabled"}}, {"text": "§6\nmobGriefing: "}, {"score": {"name": "@s", "objective": "mobGriefingEnabled"}}, {"text": "§6\nmaxEntityCramming: "}, {"score": {"name": "@s", "objective": "maxEntityCrammingAmount"}}, {"text": "§6\nrandomTickSpeed: "}, {"score": {"name": "@s", "objective": "randomTickSpeedAmount"}}, {"text": "§6\ndoFireTick: "}, {"score": {"name": "@s", "objective": "fireTickEnabled"}}, {"text": "\n\n"}]
 
 scoreboard players set @a gamerules 0

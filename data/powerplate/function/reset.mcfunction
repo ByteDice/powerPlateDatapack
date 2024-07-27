@@ -41,7 +41,6 @@ scoreboard objectives remove mobGriefingEnabled
 scoreboard objectives remove maxEntityCrammingAmount
 scoreboard objectives remove randomTickSpeedAmount
 scoreboard objectives remove fireTickEnabled
-scoreboard objectives remove wardenSpawningEnabled
 scoreboard objectives remove icePlateAnchorDuration
 
 scoreboard objectives add wearingPowerPlate dummy
@@ -87,7 +86,6 @@ scoreboard objectives add mobGriefingEnabled dummy
 scoreboard objectives add maxEntityCrammingAmount dummy
 scoreboard objectives add randomTickSpeedAmount dummy
 scoreboard objectives add fireTickEnabled dummy
-scoreboard objectives add wardenSpawningEnabled dummy
 scoreboard objectives add icePlateAnchorDuration dummy
 
 
