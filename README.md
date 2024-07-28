@@ -1,5 +1,6 @@
 ![](README_assets/powerplates_title_pressure.png)
 
+
 # What is this?
 This is a Minecraft datapack where the main content is focused on chestplates that give unique abilities.
 
@@ -8,16 +9,12 @@ Thats not all, there are plenty of QOL features like ranks, custom commands, spa
 All chestplates have a **passive** and **event** ability. Passive abilities are *always* active, while event abilities are activated manually and are much stronger, but they have a cooldown.
 
 Examples of these abilities include:
-
  * **Silent** (passive):
    * The wearer is permanently blinded but has a "radar" which spots entities through walls.
-
  * **Oceanic** (passive):
    * The wearer is really slow on land, but has water breathing and is extremely agile underwater.
-
  * **Uranium** (event):
-   * Big kaboom.
-
+   * BIG KABOOM.
  * **Speedster** (event):
    * Spawns a big tornado which throws everything high up in the air.
 
@@ -29,7 +26,20 @@ Examples of these abilities include:
 ### **Silent** chestplate passive
 ![](README_assets/silent_passive_showcase_cropped_GIF.gif)
 
+
 # Open-source
 **This is open-source, do whatever you want, but do not expect professional quality.**
 
-**NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world. There will be a list of incompatible files in** `incompatible-files.txt` **if you wish to modify/remove them.**
+**NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world. There will be a list of incompatible files in** [incompatible-files.txt](/incompatible-files.txt) **if you wish to modify/remove them.**
+
+# Special thanks
+
+### Special thanks to these people for helping me with this project
+
+**Playtesters:**\
+8BitBiscotti, KPOW
+
+**Text revising:**\
+Reckless
+
+<sub>Gotta give credits to myself (Byte Dice) for coding everything</sub>
