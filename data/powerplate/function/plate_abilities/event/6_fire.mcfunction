@@ -1,4 +1,4 @@
-execute at @a[scores = {usedAbility = 1, wearingFire = 1}] run summon fireball ~ ~1 ~ {ExplosionPower: 7}
+execute at @a[scores = {usedAbility = 1, wearingFire = 1}] run summon fireball ~ ~1 ~ {ExplosionPower: 10}
 
 execute as @a[scores = {usedAbility = 1, wearingFire = 1}] run scoreboard players set @s firePlateIsUsingAbility 1
 execute as @a[scores = {firePlateIsUsingAbility = 1}] run scoreboard players add @s firePlateParticleCount 1

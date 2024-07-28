@@ -12,4 +12,6 @@ execute as @a[scores = {hasDied = 0.., powerPlateType = 11}] run function powerp
 
 execute as @a[scores = {hasDied = 0..}] run function powerplate:give_plate/ability_activator
 
+execute as @a[scores = {hasDied = 0..}] run scoreboard players set @s uraniumTemp 0
+
 execute as @a[scores = {hasDied = 0..}] run scoreboard players reset @s hasDied

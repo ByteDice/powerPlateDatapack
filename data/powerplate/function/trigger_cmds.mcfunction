@@ -44,3 +44,10 @@ execute as @a[scores = {gamerules = 1..}] store result score @s fireTickEnabled 
 execute as @a[scores = {gamerules = 1..}] run tellraw @s [{"text": "§6\n\nGAMERULES (for boolean values, 1 = true, 0 = false)\n------------------------------\nkeepInventory: "}, {"score": {"name": "@s", "objective": "keepInventoryEnabled"}}, {"text": "§6\nmobGriefing: "}, {"score": {"name": "@s", "objective": "mobGriefingEnabled"}}, {"text": "§6\nmaxEntityCramming: "}, {"score": {"name": "@s", "objective": "maxEntityCrammingAmount"}}, {"text": "§6\nrandomTickSpeed: "}, {"score": {"name": "@s", "objective": "randomTickSpeedAmount"}}, {"text": "§6\ndoFireTick: "}, {"score": {"name": "@s", "objective": "fireTickEnabled"}}, {"text": "\n\n"}]
 
 scoreboard players set @a gamerules 0
+
+
+scoreboard players enable @a craftingGuide
+
+execute as @a[scores = {craftingGuide = 1..}] run tellraw @s "§2\n\n------------------------------\n1 chestplate of the depths\n4 echoing fragments\n1 eye of the anchients\n1 heart of the sea\n2 blocks of hardened coal\n\nNot in a crafting table, but rather on the ground. Once completed, a new gift will bestow you.\n------------------------------\n\n"
+
+scoreboard players set @a craftingGuide 0

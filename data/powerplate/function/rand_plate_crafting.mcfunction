@@ -16,13 +16,15 @@ execute as @e[type = item, nbt = {Item: {id: "minecraft:netherite_chestplate"}},
 
 execute as @e[scores = {isCrafting = 1}] run scoreboard players add @s craftAnimationTime 1
 
+execute at @e[scores = {craftAnimationTime = 20..25}] run playsound block.beacon.activate player @a[distance = ..30]
 execute at @e[scores = {craftAnimationTime = 20..80}] run particle electric_spark ~0.5 ~ ~ 0.0 1 0.0 3 0
 execute at @e[scores = {craftAnimationTime = 20..80}] run particle electric_spark ~ ~ ~0.5 0.0 1 0.0 3 0
 execute at @e[scores = {craftAnimationTime = 20..80}] run particle electric_spark ~-0.5 ~ ~ 0.0 1 0.0 3 0
 execute at @e[scores = {craftAnimationTime = 20..80}] run particle electric_spark ~ ~ ~-0.5 0.0 1 0.0 3 0
 
+execute at @e[scores = {craftAnimationTime = 80}] run playsound entity.generic.explode player @a[distance = ..30]
 execute at @e[scores = {craftAnimationTime = 80}] run particle explosion_emitter ~ ~ ~ 0 0 0 0 1
-execute at @e[scores = {craftAnimationTime = 80}] store result score @p powerPlateType run random value 1..11
+execute at @e[scores = {craftAnimationTime = 80}] store result score @p powerPlateType run random value 1..10
 
 execute at @e[scores = {craftAnimationTime = 80}] as @p if entity @s[scores = {powerPlateType = 1}] run function powerplate:give_plate/1_power
 execute at @e[scores = {craftAnimationTime = 80}] as @p if entity @s[scores = {powerPlateType = 2}] run function powerplate:give_plate/2_health

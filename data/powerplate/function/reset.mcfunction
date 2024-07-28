@@ -123,6 +123,7 @@ scoreboard objectives remove banned-mods
 scoreboard objectives remove spawn
 scoreboard objectives remove pvp
 scoreboard objectives remove gamerules
+scoreboard objectives remove craftingGuide
 
 scoreboard objectives add rules trigger
 scoreboard objectives add faq trigger
@@ -130,10 +131,12 @@ scoreboard objectives add banned-mods trigger
 scoreboard objectives add spawn trigger
 scoreboard objectives add pvp trigger
 scoreboard objectives add gamerules trigger
+scoreboard objectives add craftingGuide trigger
 
 title @a times 10t 10t 10t
 
 team join founder Byte_Dice
+team join playTester HEKVAK
 
 
 tellraw Byte_Dice "§4§lPowerPlate Datapack successfully reloaded!"

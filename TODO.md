@@ -20,7 +20,7 @@
 
 
 ## NOTES
-- strenght 3 possibly too much dmg
+- strength 3 possibly too much dmg
 - powerPlate potions no dmg
 
 - oceanic ability only useful for escaping

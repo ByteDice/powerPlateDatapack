@@ -1,6 +1,6 @@
 execute as @a unless entity @s[scores = {hasJoinedBefore = 0..}] run scoreboard players set @s hasJoinedBefore 0
 
-execute as @a[scores = {hasJoinedBefore = 0}] unless entity @s[scores = {powerPlateType = 0..}] run execute store result score @s powerPlateType run random value 1..11
+execute as @a[scores = {hasJoinedBefore = 0}] unless entity @s[scores = {powerPlateType = 0..}] run execute store result score @s powerPlateType run random value 1..10
 
 execute as @a[scores = {hasJoinedBefore = 0}] run title @s times 10t 10t 10t
 
