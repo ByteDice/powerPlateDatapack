@@ -36,6 +36,8 @@ Examples of these abilities include:
 
 ### Special thanks to these people for helping me with this project
 
+Huge thanks to KPOW for the amazing suggestions they've given me
+
 **Playtesters:**\
 8BitBiscotti, KPOW
 
