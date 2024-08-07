@@ -2,13 +2,16 @@
 
 ## CODE
 - Balance plate abilities
+- add particles to ender plate
+- "THIS IS VERY UNBALANCED" to welcome message
+- make speedster use horizontal velocity too
+- rework strength, health, wither
 
 ## CUSTOM COMMANDS (hopefully no plugins)
 - /rtp
 - /tpa
 - /invsee (also for echest)
 - TAB (plugin)
-- "THIS IS VERY UNBALANCED" to welcome message
 - /issue command to report issues on github
 
 ## OTHER
