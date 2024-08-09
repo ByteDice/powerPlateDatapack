@@ -10,7 +10,7 @@ All chestplates have a **passive** and **event** ability. Passive abilities are 
 
 Examples of these abilities include:
  * **Silent** (passive):
-   * The wearer is permanently blinded but has a "radar" which spots entities through walls.
+   * The wearer is permanently blinded but can sense entities through walls.
  * **Oceanic** (passive):
    * The wearer is really slow on land, but has water breathing and is extremely agile underwater.
  * **Uranium** (event):
