@@ -9,4 +9,4 @@ execute as @a[gamemode = adventure, scores = {inSpawn = 0}] unless entity @s[sco
 execute as @a[scores = {inSpawn = 1}] unless entity @s[scores = {isStaff = 1}] run team join inSpawn @s
 execute as @a[scores = {inSpawn = 0}, team = inSpawn] run team leave @s
 
-execute as @a[scores = {inSpawn = 1}] at @s if block ~ ~-1 ~ air run effect give @s resistance 1 255 true
+execute as @a[scores = {inSpawn = 1}] run effect give @s resistance 1 255 true
