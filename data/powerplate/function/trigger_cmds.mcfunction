@@ -51,3 +51,10 @@ scoreboard players enable @a craftingGuide
 execute as @a[scores = {craftingGuide = 1..}] run tellraw @s "§2\n\n------------------------------\n1 chestplate of the depths\n4 echoing fragments\n1 eye of the anchients\n1 heart of the sea\n2 blocks of hardened coal\n\nNot in a crafting table, but rather on the ground. Once completed, a new gift will bestow you.\n------------------------------\n\n"
 
 scoreboard players set @a craftingGuide 0
+
+
+scoreboard players enable @a githubIssue
+
+execute as @a[scores = {githubIssue = 1..}] run tellraw @s [{"text": "\n\n------------------------------\nHaving issues or experiencing bugs?\nuse \"/trigger faq\" or click ", "color": "green"}, {"text": "HERE", "color": "dark_green", "underlined": true, "clickEvent": {"action": "open_url", "value": "https://github.com/ByteDice/powerPlateDatapack/issues"}}, {"text": " to submit a bug report.\n------------------------------\n\n", "color": "green"}]
+
+scoreboard players set @a githubIssue 0

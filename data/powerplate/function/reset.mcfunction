@@ -126,6 +126,7 @@ scoreboard objectives remove spawn
 scoreboard objectives remove pvp
 scoreboard objectives remove gamerules
 scoreboard objectives remove craftingGuide
+scoreboard objectives remove githubIssue
 
 scoreboard objectives add rules trigger
 scoreboard objectives add faq trigger
@@ -134,6 +135,7 @@ scoreboard objectives add spawn trigger
 scoreboard objectives add pvp trigger
 scoreboard objectives add gamerules trigger
 scoreboard objectives add craftingGuide trigger
+scoreboard objectives add githubIssue trigger
 
 title @a times 10t 10t 10t
 
