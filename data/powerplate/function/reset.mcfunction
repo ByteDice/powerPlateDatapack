@@ -46,6 +46,9 @@ scoreboard objectives remove oceanicBoilingDuration
 scoreboard objectives remove powerHpLoss
 scoreboard objectives remove powerParticleCooldown
 scoreboard objectives remove powerHpLossDuration
+scoreboard objectives remove homeXPos
+scoreboard objectives remove homeYPos
+scoreboard objectives remove homeZPos
 
 scoreboard objectives add wearingPowerPlate dummy
 scoreboard objectives add powerPlateCooldown dummy
@@ -95,7 +98,9 @@ scoreboard objectives add oceanicBoilingDuration dummy
 scoreboard objectives add powerHpLoss dummy
 scoreboard objectives add powerParticleCooldown dummy
 scoreboard objectives add powerHpLossDuration dummy
-
+scoreboard objectives add homeXPos dummy
+scoreboard objectives add homeYPos dummy
+scoreboard objectives add homeZPos dummy
 
 scoreboard players set Byte_Dice powerPlateType 11
 
@@ -133,6 +138,8 @@ scoreboard objectives remove pvp
 scoreboard objectives remove gamerules
 scoreboard objectives remove craftingGuide
 scoreboard objectives remove githubIssue
+scoreboard objectives remove setHome
+scoreboard objectives remove home
 
 scoreboard objectives add rules trigger
 scoreboard objectives add faq trigger
@@ -142,6 +149,8 @@ scoreboard objectives add pvp trigger
 scoreboard objectives add gamerules trigger
 scoreboard objectives add craftingGuide trigger
 scoreboard objectives add githubIssue trigger
+scoreboard objectives add setHome trigger
+scoreboard objectives add home trigger
 
 title @a times 10t 10t 10t
 

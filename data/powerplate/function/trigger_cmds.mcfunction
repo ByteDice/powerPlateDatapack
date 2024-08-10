@@ -58,3 +58,31 @@ scoreboard players enable @a githubIssue
 execute as @a[scores = {githubIssue = 1..}] run tellraw @s [{"text": "\n\n------------------------------\nHaving issues or experiencing bugs?\nuse \"/trigger faq\" or click ", "color": "green"}, {"text": "HERE", "color": "dark_green", "underlined": true, "clickEvent": {"action": "open_url", "value": "https://github.com/ByteDice/powerPlateDatapack/issues"}}, {"text": " to submit a bug report.\n------------------------------\n\n", "color": "green"}]
 
 scoreboard players set @a githubIssue 0
+
+
+scoreboard players enable @a setHome
+
+execute as @a[scores = {setHome = 1..}] store result score @s homeXPos run data get entity @s Pos[0]
+execute as @a[scores = {setHome = 1..}] store result score @s homeYPos run data get entity @s Pos[1]
+execute as @a[scores = {setHome = 1..}] store result score @s homeZPos run data get entity @s Pos[2]
+
+execute as @a[scores = {setHome = 1..}] run tellraw @s "§2Successfully set home."
+
+scoreboard players set @a setHome 0
+
+
+scoreboard players enable @a home
+
+execute as @a[scores = {home = 1..}, limit = 1] run summon armor_stand 0 0 0 {Invisible: 1b, Tags: ["home"]}
+
+execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] store result entity @s Pos[0] double 1 run scoreboard players get @a[scores = {home = 1}, limit = 1] homeXPos
+execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] store result entity @s Pos[1] double 1 run scoreboard players get @a[scores = {home = 1}, limit = 1] homeYPos
+execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] store result entity @s Pos[2] double 1 run scoreboard players get @a[scores = {home = 1}, limit = 1] homeZPos
+
+execute as @a[scores = {home = 1..}, limit = 1] run tp @s @n[type = armor_stand, nbt = {Tags: ["home"]}]
+
+execute as @a[scores = {home = 1..}, limit = 1] run tellraw @s "§2Successfully teleported home"
+
+execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] run kill @s
+
+scoreboard players set @a home 0

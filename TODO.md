@@ -6,7 +6,6 @@
 - rework health, wither
 
 ## CUSTOM COMMANDS (hopefully no plugins)
-- /sethome, /home
 - /rtp
 - /tpa
 - /invsee (also for echest, plugin-only)
@@ -23,8 +22,7 @@
 
 
 ## NOTES
-- strength 3 possibly too much dmg
-- power potions no dmg
+- power possibly too much damage to max-hp ratio
 
 - wither no dmg (at least on easy mode)
 

@@ -7,26 +7,26 @@
 # if the files data is present in more than tick or reset, you have to modify that file first
 
 enter_region_title
-    used in: [tick, reset]
-    part of file: everything
-    how to fix: modify the coordinates in pvp_spawn_protection and spawn_protection
+  used in: [tick, reset]
+  part of file: everything
+  how to fix: modify the coordinates in pvp_spawn_protection and spawn_protection
 
 pvp_spawn_protection
-    used in: [tick, reset, enter_region_title]
-    part of file: line 1 and 2
-    how to fix: change the coordinates to match your pvp region
+  used in: [tick, reset, enter_region_title]
+  part of file: line 1 and 2
+  how to fix: change the coordinates to match your pvp region
 
 spawn_elevators
-    used in: [tick, reset, enter_region_title]
-    part of file: everything
-    how to fix: modify the coordinates to match your spawn region
+  used in: [tick, reset, enter_region_title]
+  part of file: everything
+  how to fix: modify the coordinates to match your spawn region
 
 spawn_protection
-    used in: [tick, reset]
-    part of file: line 1 and 2
-    how to fix: modif the coordinates to match your spawn region
+  used in: [tick, reset]
+  part of file: line 1 and 2
+  how to fix: modif the coordinates to match your spawn region
 
 trigger_cmds
-    used in: [tick, reset]
-    part of file: line 22 to line 33
-    how to fix: modify the coordinates to match your spawn and pvp region
+  used in: [tick, reset]
+  part of file: line 22 to line 33
+  how to fix: modify the coordinates to match your spawn and pvp region
