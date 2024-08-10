@@ -9,7 +9,7 @@ execute as @a[scores = {wearingUranium = 1, uraniumTemp = 1500..}] run damage @s
 # doesnt work ^
 execute as @a[scores = {wearingUranium = 1, uraniumTemp = 1500..}] at @s run damage @s 100 minecraft:explosion
 execute as @a[scores = {wearingUranium = 1, uraniumTemp = 1500..}] at @s run particle minecraft:explosion ~ ~1 ~ 0.2 0.2 0.2 0 10 normal
-execute as @a[scores = {wearingUranium = 1, uraniumTemp = 1500..}] at @s run playsound minecraft:entity.generic.explode player @a[distance = ..30] ~ ~ ~
+execute as @a[scores = {wearingUranium = 1, uraniumTemp = 1500..}] at @s run playsound minecraft:entity.generic.explode player @a ~ ~ ~
 
 execute as @a[scores = {wearingUranium = 1}] unless entity @s[scores = {tempTitleCooldown = 0..}] run scoreboard players set @s tempTitleCooldown 0
 execute as @a[scores = {tempTitleCooldown = 1..}] run scoreboard players remove @s tempTitleCooldown 1

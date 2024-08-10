@@ -9,10 +9,10 @@ execute as @e[nbt = {Tags: ["icePlateAnchor"]}] at @s run tp @n[distance = 0.01.
 execute as @e[nbt = {Tags: ["icePlateAnchor"]}] unless entity @s[scores = {icePlateAnchorDuration = 0..}] run scoreboard players set @s icePlateAnchorDuration 100
 execute as @e[nbt = {Tags: ["icePlateAnchor"]}, scores = {icePlateAnchorDuration = 0..}] run scoreboard players remove @s icePlateAnchorDuration 1
 
-execute as @e[nbt = {Tags: ["icePlateAnchor"]}, scores = {icePlateAnchorDuration = 0}] at @s run playsound minecraft:block.glass.break player @a[distance = ..30] ~ ~ ~
+execute as @e[nbt = {Tags: ["icePlateAnchor"]}, scores = {icePlateAnchorDuration = 0}] at @s run playsound minecraft:block.glass.break player @a ~ ~ ~
 execute as @e[nbt = {Tags: ["icePlateAnchor"]}, scores = {icePlateAnchorDuration = 0}] at @s run particle block{block_state:{Name:ice}} ~ ~ ~ 0.2 1 0.2 0.1 200
 execute as @e[nbt = {Tags: ["icePlateAnchor"]}, scores = {icePlateAnchorDuration = 0}] at @s run kill @e[distance = ..0.01, type = block_display]
 execute as @e[nbt = {Tags: ["icePlateAnchor"]}, scores = {icePlateAnchorDuration = 0}] run kill @s
 
-execute at @a[scores = {usedAbility = 1, wearingIce = 1}] run playsound minecraft:block.glass.break player @a[distance = ..30] ~ ~ ~
+execute at @a[scores = {usedAbility = 1, wearingIce = 1}] run playsound minecraft:block.glass.break player @a ~ ~ ~
 scoreboard players set @a[scores = {usedAbility = 1, wearingIce = 1}] powerPlateCooldown 500

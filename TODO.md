@@ -3,9 +3,10 @@
 ## CODE
 - Balance plate abilities
 - make speedster use horizontal velocity too
-- rework strength, health, wither
+- rework health, wither
 
 ## CUSTOM COMMANDS (hopefully no plugins)
+- /sethome, /home
 - /rtp
 - /tpa
 - /invsee (also for echest, plugin-only)

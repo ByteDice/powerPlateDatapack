@@ -19,7 +19,7 @@ execute as @a[scores = {witherPlateIsUsingAbility = 1, wearingWither = 1, wither
 
 execute at @a[scores = {witherPlateIsUsingAbility = 1, wearingWither = 1}] run particle minecraft:infested ~ ~1 ~ 0.5 0.5 0.5 0.5 30
 
-execute at @a[scores = {witherPlateIsUsingAbility = 1, wearingWither = 1}] run playsound minecraft:entity.wither.shoot player @a[distance = ..30] ~ ~ ~
+execute at @a[scores = {witherPlateIsUsingAbility = 1, wearingWither = 1}] run playsound minecraft:entity.wither.shoot player @a ~ ~ ~
 
 scoreboard players set @a[scores = {witherPlateIsUsingAbility = 1, wearingWither = 1, witherPlateSkullsCycles = 2..}] witherPlateIsUsingAbility 0
 scoreboard players set @a[scores = {usedAbility = 1, wearingWither = 1}] powerPlateCooldown 200

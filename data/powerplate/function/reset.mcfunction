@@ -43,6 +43,9 @@ scoreboard objectives remove randomTickSpeedAmount
 scoreboard objectives remove fireTickEnabled
 scoreboard objectives remove icePlateAnchorDuration
 scoreboard objectives remove oceanicBoilingDuration
+scoreboard objectives remove powerHpLoss
+scoreboard objectives remove powerParticleCooldown
+scoreboard objectives remove powerHpLossDuration
 
 scoreboard objectives add wearingPowerPlate dummy
 scoreboard objectives add powerPlateCooldown dummy
@@ -89,6 +92,9 @@ scoreboard objectives add randomTickSpeedAmount dummy
 scoreboard objectives add fireTickEnabled dummy
 scoreboard objectives add icePlateAnchorDuration dummy
 scoreboard objectives add oceanicBoilingDuration dummy
+scoreboard objectives add powerHpLoss dummy
+scoreboard objectives add powerParticleCooldown dummy
+scoreboard objectives add powerHpLossDuration dummy
 
 
 scoreboard players set Byte_Dice powerPlateType 11

@@ -25,3 +25,10 @@ execute as @a[scores = {wearingUranium = 1}] unless entity @s[nbt = {Inventory: 
 execute as @a[scores = {wearingIce = 1}] unless entity @s[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, ice: 1b}}}]}] run scoreboard players set @s wearingIce 0
 execute as @a[scores = {wearingWither = 1}] unless entity @s[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, wither: 1b}}}]}] run scoreboard players set @s wearingWither 0
 execute as @a[scores = {wearingByte = 1}] unless entity @s[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, byte: 1b}}}]}] run scoreboard players set @s wearingByte 0
+
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 0b}}}]}] run scoreboard players set @s powerHpLoss 0
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 1b}}}]}] run scoreboard players set @s powerHpLoss 1
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 2b}}}]}] run scoreboard players set @s powerHpLoss 2
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 3b}}}]}] run scoreboard players set @s powerHpLoss 3
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 4b}}}]}] run scoreboard players set @s powerHpLoss 4
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 5b}}}]}] run scoreboard players set @s powerHpLoss 5
