@@ -49,6 +49,11 @@ scoreboard objectives remove powerHpLossDuration
 scoreboard objectives remove homeXPos
 scoreboard objectives remove homeYPos
 scoreboard objectives remove homeZPos
+scoreboard objectives remove healthHpGain
+scoreboard objectives remove healthParticleCooldown
+scoreboard objectives remove healthHpGainDuration
+scoreboard objectives remove healthHpTarget
+scoreboard objectives remove healthHpTotalTargets
 
 scoreboard objectives add wearingPowerPlate dummy
 scoreboard objectives add powerPlateCooldown dummy
@@ -101,6 +106,11 @@ scoreboard objectives add powerHpLossDuration dummy
 scoreboard objectives add homeXPos dummy
 scoreboard objectives add homeYPos dummy
 scoreboard objectives add homeZPos dummy
+scoreboard objectives add healthHpGain dummy
+scoreboard objectives add healthParticleCooldown dummy
+scoreboard objectives add healthHpGainDuration dummy
+scoreboard objectives add healthHpTarget dummy
+scoreboard objectives add healthHpTotalTargets dummy
 
 scoreboard players set Byte_Dice powerPlateType 11
 

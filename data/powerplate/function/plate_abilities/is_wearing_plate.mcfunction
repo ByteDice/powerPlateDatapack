@@ -32,3 +32,10 @@ execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate"
 execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 3b}}}]}] run scoreboard players set @s powerHpLoss 3
 execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 4b}}}]}] run scoreboard players set @s powerHpLoss 4
 execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, power: 1b, hpLoss: 5b}}}]}] run scoreboard players set @s powerHpLoss 5
+
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, health: 1b, hpGain: 0b}}}]}] run scoreboard players set @s healthHpGain 0
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, health: 1b, hpGain: 1b}}}]}] run scoreboard players set @s healthHpGain 1
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, health: 1b, hpGain: 2b}}}]}] run scoreboard players set @s healthHpGain 2
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, health: 1b, hpGain: 3b}}}]}] run scoreboard players set @s healthHpGain 3
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, health: 1b, hpGain: 4b}}}]}] run scoreboard players set @s healthHpGain 4
+execute as @a[nbt = {Inventory: [{Slot: 102b, id: "minecraft:leather_chestplate", components: {"minecraft:custom_data":{powerPlate: 1b, health: 1b, hpGain: 5b}}}]}] run scoreboard players set @s healthHpGain 5

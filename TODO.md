@@ -3,7 +3,7 @@
 ## CODE
 - Balance plate abilities
 - make speedster use horizontal velocity too
-- rework health, wither
+- rework wither
 
 ## CUSTOM COMMANDS (hopefully no plugins)
 - /rtp
