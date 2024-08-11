@@ -8,6 +8,7 @@ execute as @a[scores = {wearingHealth = 0, healthHpGainDuration = 0..}] run scor
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] at @s run scoreboard players set @e[distance = 0.01..6] healthHpTarget 1
 
 execute at @e[scores = {healthHpTarget = 1}] run particle minecraft:end_rod ~ ~1 ~ 0.125 0.125 0.125 0.025 100
+execute at @e[scores = {healthHpTarget = 1}] run damage @s 4 wither
 
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] at @s store result score %Total healthHpTotalTargets if entity @e[scores = {healthHpTarget = 1}]
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] store result score @s healthHpTotalTargets run scoreboard players get %Total healthHpTotalTargets
