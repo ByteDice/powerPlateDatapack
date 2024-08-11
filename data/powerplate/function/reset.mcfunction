@@ -54,6 +54,8 @@ scoreboard objectives remove healthParticleCooldown
 scoreboard objectives remove healthHpGainDuration
 scoreboard objectives remove healthHpTarget
 scoreboard objectives remove healthHpTotalTargets
+scoreboard objectives remove titleResetTimer
+scoreboard objectives remove titleResetTime
 
 scoreboard objectives add wearingPowerPlate dummy
 scoreboard objectives add powerPlateCooldown dummy
@@ -111,6 +113,8 @@ scoreboard objectives add healthParticleCooldown dummy
 scoreboard objectives add healthHpGainDuration dummy
 scoreboard objectives add healthHpTarget dummy
 scoreboard objectives add healthHpTotalTargets dummy
+scoreboard objectives add titleResetTimer dummy
+scoreboard objectives add titleResetTime dummy
 
 scoreboard players set Byte_Dice powerPlateType 11
 

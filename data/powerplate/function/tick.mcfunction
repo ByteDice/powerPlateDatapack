@@ -43,3 +43,5 @@ function powerplate:enter_region_title
 function powerplate:rand_plate_crafting
 
 function powerplate:remove_chestplates_from_inventory
+
+function powerplate:reset_title_times
