@@ -60,29 +60,8 @@ execute as @a[scores = {githubIssue = 1..}] run tellraw @s [{"text": "\n\n------
 scoreboard players set @a githubIssue 0
 
 
-scoreboard players enable @a setHome
+scoreboard players enable @a discord
 
-execute as @a[scores = {setHome = 1..}] store result score @s homeXPos run data get entity @s Pos[0]
-execute as @a[scores = {setHome = 1..}] store result score @s homeYPos run data get entity @s Pos[1]
-execute as @a[scores = {setHome = 1..}] store result score @s homeZPos run data get entity @s Pos[2]
+execute as @a[scores = {discord = 1}] run tellraw @s [{"text": "Click ", "color": "green"}, {"text": "HERE", "color": "dark_green", "clickEvent": {"action": "open_url", "value": "https://discord.gg/aFgFJ7rBSe"}}, {"text": "to join the official discord server."}]
 
-execute as @a[scores = {setHome = 1..}] run tellraw @s "§2Successfully set home."
-
-scoreboard players set @a setHome 0
-
-
-scoreboard players enable @a home
-
-execute as @a[scores = {home = 1..}, limit = 1] run summon armor_stand 0 0 0 {Invisible: 1b, Tags: ["home"]}
-
-execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] store result entity @s Pos[0] double 1 run scoreboard players get @a[scores = {home = 1}, limit = 1] homeXPos
-execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] store result entity @s Pos[1] double 1 run scoreboard players get @a[scores = {home = 1}, limit = 1] homeYPos
-execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] store result entity @s Pos[2] double 1 run scoreboard players get @a[scores = {home = 1}, limit = 1] homeZPos
-
-execute as @a[scores = {home = 1..}, limit = 1] run tp @s @n[type = armor_stand, nbt = {Tags: ["home"]}]
-
-execute as @a[scores = {home = 1..}, limit = 1] run tellraw @s "§2Successfully teleported home"
-
-execute as @e[type = armor_stand, nbt = {Tags: ["home"]}] run kill @s
-
-scoreboard players set @a home 0
+scoreboard players set @a discord 0
