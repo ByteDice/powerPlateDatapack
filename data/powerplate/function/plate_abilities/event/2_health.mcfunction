@@ -1,11 +1,13 @@
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] run scoreboard players set @s healthHpGainDuration 2400
 
-execute at @a[scores = {usedAbility = 1, wearingHealth = 1}] run particle minecraft:end_rod ~ ~1 ~ 0.125 0.125 0.125 0.2 100
+execute at @a[scores = {usedAbility = 1, wearingHealth = 1}] run particle minecraft:end_rod ~ ~1 ~ 0.125 0.125 0.125 0.1 100
 
 execute as @a[scores = {healthHpGainDuration = 1..}] run scoreboard players remove @s healthHpGainDuration 1
 execute as @a[scores = {wearingHealth = 0, healthHpGainDuration = 0..}] run scoreboard players reset @s healthHpGainDuration
 
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] at @s run scoreboard players set @e[distance = 0.01..6] healthHpTarget 1
+
+execute at @e[scores = {healthHpTarget = 1}] run particle minecraft:end_rod ~ ~1 ~ 0.125 0.125 0.125 0.025 100
 
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] at @s store result score %Total healthHpTotalTargets if entity @e[scores = {healthHpTarget = 1}]
 execute as @a[scores = {usedAbility = 1, wearingHealth = 1}] store result score @s healthHpTotalTargets run scoreboard players get %Total healthHpTotalTargets
