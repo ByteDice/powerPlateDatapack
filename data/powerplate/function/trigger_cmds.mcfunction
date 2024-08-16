@@ -62,6 +62,6 @@ scoreboard players set @a githubIssue 0
 
 scoreboard players enable @a discord
 
-execute as @a[scores = {discord = 1}] run tellraw @s [{"text": "Click ", "color": "green"}, {"text": "HERE", "color": "dark_green", "clickEvent": {"action": "open_url", "value": "https://discord.gg/aFgFJ7rBSe"}}, {"text": "to join the official discord server."}]
+execute as @a[scores = {discord = 1}] run tellraw @s [{"text": "Click ", "color": "green"}, {"text": "HERE", "color": "dark_green", "clickEvent": {"action": "open_url", "value": "https://discord.gg/aFgFJ7rBSe"}}, {"text": " to join the official discord server."}]
 
 scoreboard players set @a discord 0
