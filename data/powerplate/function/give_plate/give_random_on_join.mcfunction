@@ -18,6 +18,6 @@ execute as @a[scores = {hasJoinedBefore = 0, powerPlateType = 11}] run function 
 
 execute as @a[scores = {hasJoinedBefore = 0}] run function powerplate:give_plate/ability_activator
 
-execute as @a[scores = {hasJoinedBefore = 0}] run tellraw @s "§2\n\nWelcome to PowerPlates! We hope you have a fun time here.\n------------------------------\nYou can read the rules by executing \"/trigger rules\" in the chat.\n\nIf you have any questions, please look for answers in the FAQ at \"/trigger faq\" before asking the moderators.\n\nNOTE: This mod is highly in beta, everything can be very unbalanced and buggy. If you experience unbalance or bugs, please run \"/trigger githubIssue\" for more information.\n\n"
+execute as @a[scores = {hasJoinedBefore = 0}] run tellraw @s "§2\n\nWelcome to PowerPlates! We hope you have a fun time here.\n------------------------------\nYou can read the rules by executing \"/trigger rules\" in the chat.\n\nIf you have any questions, please look for answers in the FAQ at \"/trigger faq\" before asking the moderators.\n\nNOTE: This mod is highly in beta, everything can be very unbalanced and buggy. If you experience unbalance or bugs, please run \"/trigger githubIssue\" for more information.\n\n© ByteDice\n\n"
 
 execute as @a[scores = {hasJoinedBefore = 0}] run scoreboard players set @s hasJoinedBefore 1
