@@ -1,1 +1,1 @@
-give @p minecraft:carrot_on_a_stick[minecraft:unbreakable ={}, minecraft:custom_name = '[{"text": "Ability Activator", "color": "dark_blue", "bold": true}]', minecraft:custom_data = {activator: 1b}]
+give @s minecraft:carrot_on_a_stick[minecraft:unbreakable ={}, minecraft:custom_name = '[{"text": "Ability Activator", "color": "dark_blue", "bold": true}]', minecraft:custom_data = {activator: 1b}]

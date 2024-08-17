@@ -10,22 +10,22 @@ execute as @a[scores = {wearingPower = 1, powerHpLoss = 4}] run effect give @s m
 execute as @a[scores = {wearingPower = 1, powerHpLoss = 5}] run effect give @s minecraft:strength 1 6 true
 
 
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 1, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 1, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
 
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 2, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 2, powerParticleCooldown = 8}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 2, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 2, powerParticleCooldown = 8}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
 
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 3, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 3, powerParticleCooldown = 5}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 3, powerParticleCooldown = 10}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 3, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 3, powerParticleCooldown = 5}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 3, powerParticleCooldown = 10}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
 
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 4}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 8}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 12}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 4}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 8}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 4, powerParticleCooldown = 12}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
 
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 3}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 6}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 9}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
-execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 12}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 0}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 3}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 6}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 9}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a
+execute as @a[scores = {wearingPower = 1, powerHpLoss = 5, powerParticleCooldown = 12}] at @s run particle lava ~ ~2 ~ 0 0 0 0 1 normal @a

@@ -170,4 +170,4 @@ team join founder Byte_Dice
 team join playTester HEKVAK
 
 
-tellraw Byte_Dice "§4§lPowerPlate Datapack successfully reloaded!"
+tellraw Byte_Dice "§4§lPowerPlate Datapack by Byte Dice has been successfully reloaded!"

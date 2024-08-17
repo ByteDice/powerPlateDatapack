@@ -14,4 +14,4 @@ execute as @a[scores = {hasDied = 0..}] run function powerplate:give_plate/abili
 
 execute as @a[scores = {hasDied = 0..}] run scoreboard players set @s uraniumTemp 0
 
-execute as @a[scores = {hasDied = 0..}] run scoreboard players reset @s hasDied
+execute as @a[scores = {hasDied = 0..}] run scoreboard players set @s hasDied -1
