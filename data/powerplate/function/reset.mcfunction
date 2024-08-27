@@ -133,12 +133,8 @@ team add playTester
 
 
 team modify founder color blue
-team modify founder prefix [{"text": "[", "color": "blue", "bold": true}, {"text": "Founder", "color": "aqua", "bold": true}, {"text": "] ", "color": "blue", "bold": true}]
 team modify mod color dark_red
-team modify mod prefix [{"text": "[", "color": "dark_red", "bold": true}, {"text": "Moderator", "color": "red", "bold": true}, {"text": "] ", "color": "dark_red", "bold": true}]
-
 team modify playTester color dark_green
-team modify playTester prefix [{"text": "[", "color": "dark_green", "bold": true}, {"text": "Tester", "color": "green", "bold": true}, {"text": "] ", "color": "dark_green", "bold": true}]
 
 
 team modify inSpawn friendlyFire false
