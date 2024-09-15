@@ -1,4 +1,4 @@
-![](README_assets/powerplates_title_pressure.png)
+<img src="README_assets/title.png" style="border-radius: 32px;">
 
 
 # What is this?
@@ -28,7 +28,7 @@ Examples of these abilities include:
 
 
 # Open-source
-**This is open-source, read the [LICENCE](/LICENCE) for info on what is allowed and isn't. DO NOT EXPECT PROFESSIONAL QUALITY.**
+**This is open-source, read the [LICENSE](/LICENSE) for info on what is allowed and isn't. DO NOT EXPECT PROFESSIONAL QUALITY.**
 
 **NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world (some files contain for example: specific coordinates). There will be a list of incompatible files in** [incompatible-files.txt](/incompatible-files.txt) **, aswell as instructions to remove the incompatibility if you wish to modify certain files.**
 
@@ -36,12 +36,15 @@ Examples of these abilities include:
 
 ### Special thanks to these people for helping me with this project
 
-Huge thanks to KPOW for the amazing suggestions they've given me
+Huge thanks to KPOW for the amazing suggestions and art they've designed
 
 **Playtesters:**\
 8BitBiscotti, KPOW
 
 **Text revising:**\
 Reckless
+
+**Texture pack artists:**
+KPOW
 
 <sub>Gotta give credits to myself (Byte Dice) for coding everything</sub>
