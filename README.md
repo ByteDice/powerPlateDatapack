@@ -1,4 +1,4 @@
-<img src="README_assets/title.png" style="border-radius: 32px;">
+<img src="README_assets/title_cropped.png" style="border-radius: 32px;">
 
 
 # What is this?
