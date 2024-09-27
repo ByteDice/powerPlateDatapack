@@ -30,7 +30,7 @@ Examples of these abilities include:
 # Open-source
 **This is open-source, read the [LICENSE](/LICENSE) for info on what is allowed and isn't. DO NOT EXPECT PROFESSIONAL QUALITY.**
 
-**NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world (some files contain for example: specific coordinates). There will be a list of incompatible files in** [incompatible-files.txt](/incompatible-files.txt) **, aswell as instructions to remove the incompatibility if you wish to modify certain files.**
+**NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world (some files contain for example: specific coordinates). There will be a list of incompatible files in** [incompatible-files.txt](/incompatible-files.txt) **, as well as instructions to remove the incompatibility if you wish to modify certain files.**
 
 # Special thanks
 
