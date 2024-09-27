@@ -1,4 +1,4 @@
-<img src="README_assets/title_cropped.png" style="border-radius: 32px;">
+![](README_assets/pps_homepage_full.png)
 
 
 # What is this?
