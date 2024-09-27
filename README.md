@@ -44,7 +44,7 @@ Huge thanks to KPOW for the amazing suggestions and art they've designed
 **Text revising:**\
 Reckless
 
-**Texture pack artists:**
+**Texture pack artists:**\
 KPOW
 
 <sub>Gotta give credits to myself (Byte Dice) for coding everything</sub>
