@@ -3,18 +3,16 @@
 ## CODE
 - Balance plate abilities
 - make speedster use horizontal velocity too
-- rework wither
+- maybe rework wither?
+- remove ALL incompatible files (use server mods instead)
 
 ## CUSTOM COMMANDS
-- /rtp
-- /tpa
+-
 
 ## OTHER
 
 ## FUTURE ADDITIONS
 - Add minigame maps
-
-
 
 
 
