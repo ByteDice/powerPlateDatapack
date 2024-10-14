@@ -10,10 +10,10 @@
 -
 
 ## OTHER
+- remove pvp region, it doesnt fit with the server theme
 
 ## FUTURE ADDITIONS
-- Add minigame maps
-
+-
 
 
 ## NOTES
