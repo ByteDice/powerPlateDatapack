@@ -27,10 +27,12 @@ Examples of these abilities include:
 ![](README_assets/silent_passive_showcase_cropped_GIF.gif)
 
 
-# Open-source
-**This is open-source, read the [LICENSE](/LICENSE) for info on what is allowed and isn't. DO NOT EXPECT PROFESSIONAL QUALITY.**
+# Open-source - Copyright
 
-**NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world (some files contain for example: specific coordinates). There will be a list of incompatible files in** [incompatible-files.txt](/incompatible-files.txt) **, as well as instructions to remove the incompatibility if you wish to modify certain files.**
+**PowerPlates Website © 2024 by Byte Dice is licensed under CC BY-NC-SA 4.0**\
+**You can learn more about copyright by reading the full [license](/LICENSE)**
+
+**NOTE: If you wish to use this datapack for yourself, not all files are compatible with every world (some files contain for example: specific coordinates). There will be a list of incompatible files in** [incompatible-files.txt](/incompatible-files.txt) **, as well as instructions to remove the incompatibility if you wish to modify certain files to fit your desires.**
 
 # Special thanks
 
